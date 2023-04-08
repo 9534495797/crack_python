@@ -30,3 +30,9 @@ user_info={
 #     print(i)
 # for i in user_info.values():
 #     print(i)
+
+
+i=1/2
+while i<=10:
+    print(float(i))
+    i+=1/2
