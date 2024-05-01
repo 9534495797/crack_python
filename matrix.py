@@ -10,6 +10,13 @@
             
 #             print(k)
 
+# a=[[1,2],[3,4],[5,6]]
+# trans=[[0,0,0],[0,0,0]]
+# for i in range(len(a)):
+#     for j in range(len(a[0])):
+#         trans[j][i]=a[i][j]
+# for k in trans:
+#     print(k)
 
 # a=[[4,8],
 #    [3,19],
@@ -27,7 +34,7 @@
 #     print(k)
 
 
-# # Initialize a 3x3 matrix with zeros
+# # # Initialize a 3x3 matrix with zeros
 # matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
 # # Get user input to fill the matrix
@@ -87,8 +94,35 @@
 #     print(k)
 
 
-matrix=[[0,0,0],[0,0,0],[0,0,0]]
-print("write")
-for i in range(3):
-    for j in range(3):
-        matrix[i][j]=int(input("enter value".format(i,j)))
+# matrix=[[0,0,0],[0,0,0],[0,0,0]]
+# print("write")
+# for i in range(3):
+#     for j in range(3):
+#         matrix[i][j]=int(input("enter value".format(i,j)))
+
+
+matrix=[[0,0],[0,0]]
+for i in range(len(matrix)):
+    for j in range(len(matrix[0])):
+        matrix[i][j]=int(input(("matrix is {} {}= ".format(i,j))))
+        for k in matrix:
+            print(k)
+
+
+# matrix=[[0,0],[0,0],[0,0]]
+# for i in range(len(matrix)):
+#     for j in range(len(matrix[0])):
+#         matrix[i][j]=int(input(("enter values[{},{}]".format(i,j))))
+
+# for k in matrix:
+#     print(k)
+
+
+# trans=[[0,0,0],[0,0,0]]
+# for i in range(len(matrix)):
+#     for j in range(len(matrix[0])):
+#         trans[j][i]=matrix[i][j]
+# for k in trans:
+#     print(k)
+
+

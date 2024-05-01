@@ -2,7 +2,7 @@
 # tup2=(4,5,6,7)
 # c=zip(tup1,tup2)
 # print(c)
-# tup=(1,2,3,4)
+# # tup=(1,2,3,4)
 # print(len(tup))
 
 # print(max(tup))

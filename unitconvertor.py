@@ -33,3 +33,6 @@ def convert(f):
     return ((f-32)/180)*100
 
 print(convert(32))
+# 0 100 =c
+# 32 212 =f
+# 273 373 =k

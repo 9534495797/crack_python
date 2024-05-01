@@ -51,13 +51,49 @@
 # num=int(input())
 # print(armstrong(num))
 
-def armstrong(num):
+# def armstrong(num):
+#     sum=0
+#     b=len(str(num))
+#     for i in str(num):
+#         sum+=int(i)**b
+#         if sum==num:
+#             return True
+#         else:
+#             return False
+# print(armstrong(20))
+
+# def armstrong(num):
+#     sum=0
+#     b=len(str(num))
+#     for i in str(num):
+#         sum+=int(i)**b
+
+#     if sum==num:
+#         return True
+#     else:
+#         return False
+# nuum=int(input())
+# print(armstrong(nuum))
+
+# def arm(num):
+#     sum=0
+#     b=len(str(num))
+#     for i in str(num):
+#         sum+=int(i)**b
+#     if sum==num:
+#         return True
+#     else:
+#         return False
+# print(arm(6))
+
+def arm(num):
     sum=0
     b=len(str(num))
     for i in str(num):
         sum+=int(i)**b
-        if sum==num:
-            return True
-        else:
-            return False
-print(armstrong(54))
+    if sum==num:
+        return True
+    else:
+        return False
+print(arm())
+

@@ -48,14 +48,14 @@
 #     else:
 #         return False
 
-# def count_vowels(string):
-#     count = 0
-#     vowels = 'aeiouAEIOU'
-#     for char in string:
-#         if char in vowels:
-#             count += 1
-#     return count
-# print(count_vowels("education"))
+def count_vowels(string):
+    count = 0
+    vowels = 'aeiouAEIOU'
+    for char in string:
+        if char in vowels:
+            count += 1
+    return count
+print(count_vowels("education"))
 # To find the length of the longest word in a given sentence:
 # python
 # Copy code
@@ -86,6 +86,11 @@
 #     lst.remove(max_num)
 #     second_max = max(lst)
 #     return second_max
+
+# list1=[2,1,4,3,6,5]
+# list1.sort()
+# print(list1[-2])
+
 # To convert a binary number to decimal:
 # python
 # Copy code
@@ -100,10 +105,10 @@
 
 
 
-def count_vowel(x):
-    for i in range(x):
-        if "aeiouAEIOU" in i:
-            print(i)
-print(count_vowel('orange'))
+# def count_vowel(x):
+#     for i in range(x):
+#         if "aeiouAEIOU" in i:
+#             print(i)
+# print(count_vowel('orange'))
 
 

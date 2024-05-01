@@ -12,6 +12,15 @@
 # binary=input()
 # print(binary_to_decimal(binary))
 
+def b_d(binary):
+    decimal=0
+    binary=str(binary)
+    binary=binary[::-1]
+    for i in range(len(binary)):
+        if binary[i]=='1':
+            decimal+=2**i
+    return decimal
+print(b_d(1011))
 #input 1011 out 11
 
 

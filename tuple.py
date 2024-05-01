@@ -69,9 +69,14 @@
 # Output: The two tuples are not equal.
 
 # Here's an example of creating a tuple with five elements and removing an element from it:
-x=(1,2,3,4,5)
-y=list(x)
-y.remove(5)
-x=tuple(y)
-print(x)
+# x=(1,2,3,4,5)
+# y=list(x)
+# y.remove(5)
+# x=tuple(y)
+# print(x)
 
+x=(1,2,3,4,5,6,7,8,9,10)
+print(x[7:11])
+b=list(x)
+b.remove()
+print(b)

@@ -102,3 +102,49 @@
 # print(m.palindrome(word))
 # num=int(input())
 # print(m.armstrong(num))
+
+
+ #class Shape:
+#     def area(self):
+#         pass
+
+# class Square(Shape):
+#     def __init__(self, length):
+#         self.length = length
+
+#     def area(self):
+#         return self.length ** 2
+
+# class Circle(Shape):
+#     def __init__(self, radius):
+#         self.radius = radius
+
+#     def area(self):
+#         return 3.14 * self.radius ** 2
+
+# # create objects of the Square and Circle classes
+# square = Square(5)
+# circle = Circle(3)
+
+# # print the areas of the objects
+# print("Area of square:", square.area())
+# print("Area of circle:", circle.area())
+# # In this example, we define a Shape class with one method, area(), which is defined as a pass statement. We also define two subclasses of Shape: Square and Circle. Each subclass overrides the area() method to calculate
+
+
+# import math
+# class cal():
+#     def area(self,a):
+#         return math.pi*a**2
+# n=cal()
+# a=int(input())
+# print(n.area(a))
+
+# class at():
+#     def area(self,a,b):
+#         return 1/2*(a*b)
+# m=at()
+# a=int(input())
+# b=int(input())
+# print(m.area(a,b))
+

@@ -8,6 +8,18 @@
 #         const+=1
 # print(vowel)
 # print(const)
+string=input()
+vowel=0
+const=0
+for char in string:
+    if char in "aeiou" or char in "AEIOU":
+        vowel+=1
+    elif char.isalpha():
+        const+=1
+    else:
+        print("wrong input")
+print(vowel)
+print(const)
 
 # string=input("")
 # vowe_count=0

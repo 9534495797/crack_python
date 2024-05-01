@@ -9,22 +9,22 @@
 # Write a program to check whether a given number is an Armstrong number or not.
 # Write a program to calculate the sum of the series: 1 + 1/2 + 1/3 + ... + 1/N.
 # import math
-import math
-def quadr(a,b,c):
-    disc=(b*b)-4*a*c
-    if disc>0:
-        a=-b+(math.sqrt(disc))/2*a
-        b= a=-b-(math.sqrt(disc))/2*a
-        return a,b
-    elif disc==0:
-        root=-b/(2*a)
-        return root
-    else:
-        return "imaginary roots"
-a=int(input())
-b=int(input())
-c=int(input())
-print(quadr(a,b,c))
+# import math
+# def quadr(a,b,c):
+#     disc=(b*b)-4*a*c
+#     if disc>0:
+#         a=-b+(math.sqrt(disc))/2*a
+#         b= a=-b-(math.sqrt(disc))/2*a
+#         return a,b
+#     elif disc==0:
+#         root=-b/(2*a)
+#         return root
+#     else:
+#         return "imaginary roots"
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# print(quadr(a,b,c))
 # def quadratic_roots(a, b, c):
 #     # Calculate the discriminant
 #     disc = b**2 - 4*a*c
@@ -100,20 +100,22 @@ print(quadr(a,b,c))
 # Program to check whether a given number is an Armstrong number or not:
 # python
 # Copy code
-# def is_armstrong(num):
-#     # Count the number of digits
-#     n = len(str(num))
+def is_armstrong(num):
+    # Count the number of digits
+    n = len(str(num))
 
-#     # Calculate the sum of the nth powers of the digits
-#     sum = 0
-#     for digit in str(num):
-#         sum += int(digit)**n
+    # Calculate the sum of the nth powers of the digits
+    sum = 0
+    for digit in str(num):
+        sum += int(digit)**n
 
-#     # Check if the sum equals the original number
-#     if sum == num:
-#         return True
-#     else:
-#         return False
+    # Check if the sum equals the original number
+    if sum == num:
+        return True
+    else:
+        return False
+num=int(input())
+print(is_armstrong(num))
 # Program to calculate the sum of the series: 1 + 1/2 + 1/3 + ... + 1/N:
 # python
 # Copy code
@@ -122,5 +124,5 @@ print(quadr(a,b,c))
 #     for i in range(1, n+1):
 #         total += 1/i
 #     return total
-
+# print(series_sum(4))
 

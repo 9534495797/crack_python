@@ -20,9 +20,30 @@
 #         return gcd(b,a%b)
 # print(gcd(4,8))
 
-def gcd(a,b):
+# def gcd(a,b):
+#     if b==0:
+#         return a
+#     else:
+#         return gcd(b,a%b)
+# print(gcd(3,4))
+
+
+
+# def hcf(a,b):
+#     if b==0:
+#         return a
+#     else:
+#         return hcf(b,a%b)
+    
+# print(hcf(4,7))
+
+
+# find hcf of 4,8
+def hcf(a,b):
     if b==0:
         return a
     else:
-        return gcd(b,a%b)
-print(gcd(3,4))
+        return hcf(b,a%b)
+a=int(input())
+b=int(input())
+print(hcf(a,b))

@@ -1,3 +1,5 @@
+ 
+ 
 # user={'name':'ankit','age':20}
 # print(user)
 # print(type(user))
@@ -12,6 +14,7 @@ user_info={
     'religious':'hindu',
     'nation':'hindustan'
 }
+print(user_info )
 
 # if 'name' in user_info:
 #     print("yes")
@@ -32,7 +35,7 @@ user_info={
 #     print(i)
 
 
-i=1/2
-while i<=10:
-    print(float(i))
-    i+=1/2
+# i=1/2
+# while i<=10:
+#     print(float(i))
+#     i+=1/2
